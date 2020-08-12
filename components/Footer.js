@@ -8,7 +8,7 @@ const Footer = () => (
      <div className="footer__icons">
       <span><a href="#"><img src="/facebook.png" alt=""/></a> </span>
       <span><a href="#"><img src="/twitter.png" alt=""/></a></span>
-      <span><a href="#"><img src="/linkedIn.png" alt=""/></a></span>
+      <span><a href="#"><img src="/LinkedIn.png" alt=""/></a></span>
      </div>
     </footer>
 );
