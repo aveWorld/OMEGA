@@ -1,0 +1,24 @@
+.footer {
+    background-color: #2C313A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.87rem;
+    margin-top: 5rem;
+    padding: 0 9.3%;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .footer__span {
+    color: white;
+  }
+  
+  .footer__icons > span {
+    margin: 0 .5rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+  }
+
+  .footer__icons > span:hover {
+    opacity: .5;
+  }

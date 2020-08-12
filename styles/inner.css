@@ -1,0 +1,71 @@
+.inner__header {
+    background: url('/bg-header.png') 100% 100% no-repeat;
+    width: 100vw;
+    height: 481px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inner__header > h1 {
+    line-height: 52px;
+    font-size: 38px;
+    width: 704px;
+    text-align: center;
+}
+
+.inner__main {
+    width: 82%;
+    margin: 0rem auto;
+    line-height: 21px;
+}
+
+.inner__main__text {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.inner__main__button {
+    background: #0067A3;
+    border-radius: 3px;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.inner__main__button:hover {
+    opacity: .5;
+}
+
+.inner__main__cards_title {
+    text-align: center;
+    margin-top: 3rem;
+    color: #576072;
+}
+
+.inner__cards {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 996px) {
+    .inner__cards {
+        flex-wrap: wrap;
+    }
+ }
+
+ @media screen and (max-width: 576px) {
+    .inner__cards {
+        flex-wrap: wrap;
+    }
+    .inner__header > h1 {
+        padding: 0 1rem;
+    }
+ }
